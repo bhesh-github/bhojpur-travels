@@ -1,0 +1,59 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.format.enable": true,
+  "eslint.nodePath": "node_modules",
+  "eslint.onIgnoredFiles": "warn",
+  "cSpell.words": [
+    "codenames",
+    "colour",
+    "commitlint",
+    "datacentres",
+    "devs",
+    "Eagleson",
+    "esbenp",
+    "Etyo",
+    "Kasper",
+    "leerob",
+    "nextauth",
+    "nextjs",
+    "npmrc",
+    "pravatar",
+    "preload",
+    "prettierignore",
+    "prettierrc",
+    "regexes",
+    "rgba",
+    "scaleable",
+    "signin",
+    "Supabase",
+    "superpowered",
+    "tailwindcss",
+    "typeof",
+    "typesafe",
+    "unoptimized",
+    "userinfo",
+    "Vercel",
+    "Viewports",
+    "WEBP"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.workingDirectories": ["../"],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave"
+}

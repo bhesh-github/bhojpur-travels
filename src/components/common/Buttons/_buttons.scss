@@ -1,0 +1,54 @@
+.sb-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  min-width: 136px;
+  border-radius: 4px;
+  gap: 8px;
+
+  &.variant-1 {
+    border: 1px solid $primary-green;
+    background-color: $primary-green;
+  }
+
+  &.variant-2 {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+  }
+
+  &.variant-3 {
+    border: 1px solid $primary-error;
+    background-color: $primary-error;
+  }
+
+  &.variant-4 {
+    border: 1px solid $black-1010;
+    background-color: transparent;
+
+    .text {
+      color: $black-1010;
+    }
+  }
+
+  &.variant-5 {
+    padding: 8px 12px;
+    background-color: #046c4e;
+    border-radius: 8px;
+
+    .text {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 150%;
+    }
+  }
+
+  .text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
